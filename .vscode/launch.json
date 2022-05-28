@@ -1,6 +1,14 @@
 {
     "version": "0.2.0",
     "configurations": [
+        {
+            "name": "BrightScript Debug: Launch",
+            "type": "brightscript",
+            "request": "launch",
+            "host": "${promptForHost}",
+            "password": "${promptForPassword}",
+            "rootDir": "${workspaceFolder}"
+        },
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
