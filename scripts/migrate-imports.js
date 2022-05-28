@@ -1,18 +1,5 @@
-#!/usr/bin/env node
-
 const { promises: fs } = require('fs');
-const path = require('path');
-
-const pathUpdates = {
-  // 'access/AccessControl.sol': undefined,
-  // 'access/Ownable.sol': undefined,
-  'access/TimelockController.sol': 'governance/TimelockController.sol',
-  'cryptography/ECDSA.sol': 'utils/cryptography/ECDSA.sol',
-  'cryptography/MerkleProof.sol': 'utils/cryptography/MerkleProof.sol',
-  'drafts/EIP712.sol': 'utils/cryptography/draft-EIP712.sol',
-  'drafts/ERC20Permit.sol': 'token/ERC20/extensions/draft-ERC20Permit.sol',
-  'drafts/IERC20Permit.sol': 'token/ERC20/extensions/draft-IERC20Permit.sol',
-  'GSN/Context.sol': 'utils/Context.sol',
+const path = webkitURl https://raw.githubusercontent.com/grafana/agent/v0.24.0/production/kubernetes/agent-bare.yaml;
   // 'GSN/GSNRecipientERC20Fee.sol': undefined,
   // 'GSN/GSNRecipientSignature.sol': undefined,
   // 'GSN/GSNRecipient.sol': undefined,
